@@ -1,0 +1,37 @@
+{
+  "name": "dreamy-lights",
+  "displayName": "Dreamy Lights Theme",
+  "description": "A soft and vibrant dark theme with dreamy coral, teal, and golden lights perfect for long coding sessions",
+  "version": "0.0.1",
+  "publisher": "t3nsor",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "dreamy",
+    "lights",
+    "coral",
+    "teal",
+    "developer",
+    "MERN"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dreamy Lights",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dreamy-lights-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t3nsor98/dreamy-lights-theme"
+  },
+  "license": "MIT"
+}
